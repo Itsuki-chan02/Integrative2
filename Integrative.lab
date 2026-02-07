@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mathapp
+{
+    internal class MathProgram
+    {
+        static void Main(string[] args)
+        {
+              
+            double number = 5;
+            double power= 4;
+            double powerResult = Math.Pow(number, power);
+            Console.WriteLine($"{number} raised to the power of {power} is: {powerResult}");
+
+            Console.WriteLine();
+
+            double squareNumber = 25;
+            double squareRootResult = Math.Sqrt(squareNumber);
+            Console.WriteLine($"The square root of {squareNumber} is: {squareRootResult}");
+           
+            Console.WriteLine();
+
+            double negativeNumber = -67.5;
+            double absoluteValue = Math.Abs(negativeNumber);
+            Console.WriteLine($"The absolute value of {negativeNumber} is: {absoluteValue}");
+
+            Console.WriteLine();
+
+            double number1 = 10.67;
+           
+            double ceilingResult = Math.Ceiling(number1);
+           
+            Console.WriteLine($"The ceiling of {number1} is: {ceilingResult}");
+
+            Console.WriteLine();
+           
+            double number2 = 20.45;
+            double floorResult = Math.Floor(number2);
+            Console.WriteLine($"The floor of {number2} is: {floorResult}");
+            Console.WriteLine();
+
+            Console.WriteLine("\nPres any key to exit.....");
+        }
+    }
+}
