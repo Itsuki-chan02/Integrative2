@@ -1,0 +1,5 @@
+﻿Build started at 5:46 PM...
+1>------ Build started: Project: StudentGradeApp, Configuration: Debug Any CPU ------
+1>  StudentGradeApp -> C:\Users\samot.405715\source\repos\StudentGradeApp\StudentGradeApp\bin\Debug\StudentGradeApp.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 5:46 PM and took 00.504 seconds ==========
